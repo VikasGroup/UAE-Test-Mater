@@ -15,4 +15,4 @@ Examples:
     |CU001369      |Test@135 |https://store.qion-ltd.net/en|
     |kasun@vikas.lk|Test@135 |https://store.qion-ltd.net/en|
     |HD333649      |Test@135 |https://store.qion-ltd.net/en|
-    |dasun@vikas.lk|Test@135 |https://store.qion-ltd.net/en|
+    |haris@vikas.lk|Test@135|https://store.qion-ltd.net/en|
