@@ -11,11 +11,12 @@ And validate the landing page "<page _link>"
 
 
 Examples:
-    |email_ID| password|page _link|
+    |email_ID      | password|page _link                   |
     |CU001369      |Test@135 |https://store.qion-ltd.net/en|
     |kasun@vikas.lk|Test@135 |https://store.qion-ltd.net/en|
     |HD333649      |Test@135 |https://store.qion-ltd.net/en|
     |haris@vikas.lk|Test@135 |https://store.qion-ltd.net/en|
+    
     
 @Reg1	
 Scenario Outline: Test case 05
@@ -39,7 +40,7 @@ Then Validate the Auto Login "<Autologin>"
 
 Examples:
     |IR_ID   |Reg_Type  |Title|FName|Lname|BDAY      |Lang   |Mob_no      |Email         |Re_Email      |PWD     |Re_PWD  |Address|City|PostCode|EcardNo       |PIN   |Autologin          |
-    |HD333649|Individual|Mr   |test |vikas|04/10/1985|English|971000000005|osura@vikas.lk|osura@vikas.lk|Test@135|Test@135|test   |test|0000    |TESTUSD0000043|QECTST|Welcome! TEST VIKAS|
+    |HD333649|Individual|Mr   |test |vikas|04/10/1985|English|971000000015|osura@vikas.lk|osura@vikas.lk|Test@135|Test@135|test   |test|0000    |TESTUSD0000043|QECTST|Welcome! TEST VIKAS|
       	
  @Reg1
 Scenario Outline: Test case 06
@@ -61,7 +62,7 @@ Then Validate the Auto Login "<Autologin>"
 
 Examples:
     |IR_ID   |Reg_Type|ComName     |Desig|ContPer|Lang   |Mob_no      |Email         |Re_Email      |PWD     |Re_PWD  |Address|City|PostCode|EcardNo       |PIN   |Autologin            |
-    |HD333649|Company |Test Company|test |test   |English|971000000007|osura@vikas.lk|osura@vikas.lk|Test@135|Test@135|test   |test|0000    |TESTUSD0000044|QECTST|Welcome! TEST COMPANY|
+    |HD333649|Company |Test Company|test |test   |English|971000000017|osura@vikas.lk|osura@vikas.lk|Test@135|Test@135|test   |test|0000    |TESTUSD0000044|QECTST|Welcome! TEST COMPANY|
              	
 @Reg1
 Scenario Outline: Test case 07
@@ -81,7 +82,7 @@ Then Validate the Auto Login "<Autologin>"
 
 Examples:
     |IR_ID   |Title|FName|Lname  |BDAY      |Lang   |Mob_no      |Email         |Re_Email      |PWD     |Re_PWD  |Address|City|PostCode|Autologin            |
-    |HD333649|Mr   |test |vikasRC|04/10/1985|English|971000000010|osura@vikas.lk|osura@vikas.lk|Test@135|Test@135|test   |test|0000    |Welcome! TEST VIKASRC|
+    |HD333649|Mr   |test |vikasRC|04/10/1985|English|971000000011|osura@vikas.lk|osura@vikas.lk|Test@135|Test@135|test   |test|0000    |Welcome! TEST VIKASRC|
       	
       	
 @Reg1
@@ -102,7 +103,7 @@ Then Validate the Auto Login "<Autologin>"
   
 Examples:
     |IR_ID   |PWD     | DE_OPTION|EcardNo       |PIN   |Autologin                    |    
-	|HD333649|Test@135|          |TESTUSD0000040|QECTST|Welcome! SMOKE TEST UAE VIKAS|
+	|HD333649|Test@135|          |TESTUSD0000047|QECTST|Welcome! SMOKE TEST UAE VIKAS|
 	
 @Reg1
 Scenario Outline: Test case 09
@@ -121,7 +122,7 @@ Then Validate the Auto Login "<Autologin>"
   
 Examples:
     |IR_ID   |PWD     | DE_OPTION|EcardNo       |PIN   |Autologin               |   
-	|CU001369|Test@135|          |F0055698340731|QECTST|Welcome! SMOKETEST VIKAS|
+	|CU001369|Test@135|          |TESTUSD0000049|QECTST|Welcome! SMOKETEST VIKAS|
       	
 @Reg1	
 Scenario Outline: Test case 10
