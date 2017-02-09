@@ -14,6 +14,7 @@ import net.uae.pgobjects.uae.pgobjects.pages.AnonymouspurchaseReg;
 import net.uae.pgobjects.uae.pgobjects.pages.LoginPage;
 import net.uae.pgobjects.uae.pgobjects.pages.Registration;
 import net.uae.pgobjects.uae.pgobjects.pages.RegistrationConfirmation;
+import util.TpGenerator;
 
 
 
@@ -79,7 +80,7 @@ public class IRRetailReg {
 
 	@When("^user enter mobile phone no \"([^\"]*)\"$")
 	public void user_enter_mobile_phone_no(String arg1) throws Throwable {
-	   registration.enterMobil(arg1);
+	   registration.enterMobil("97186007"+String.valueOf(TpGenerator.getTP(9000, 1000)));
 	   
 	}
 
