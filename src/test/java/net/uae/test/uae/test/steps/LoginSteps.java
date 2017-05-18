@@ -23,8 +23,7 @@ public class LoginSteps {
 	public void user_direct_to_the_site() throws Throwable {
 		driver.manage().window().maximize();
 		 driver.get("https://store.qion-ltd.net");
-		
-	   
+		// driver.get("https://www.qn-uae.ae/en"); 
 	}
 
 	@When("^user click on Login or Register button$")

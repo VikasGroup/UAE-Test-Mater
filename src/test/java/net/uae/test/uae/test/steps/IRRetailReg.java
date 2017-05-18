@@ -106,7 +106,7 @@ public class IRRetailReg {
 	   registration.enterZip(arg3);
 	   Thread.sleep(1000);
 	   JavascriptExecutor jse = (JavascriptExecutor)driver;
-		jse.executeScript("window.scrollBy(0,300)", "");
+		jse.executeScript("window.scrollBy(0,100)", "");
 	   registration.clickCount();
 	   Thread.sleep(10000);
 	}
@@ -118,7 +118,7 @@ public class IRRetailReg {
 		   registration.enterZip(arg3);
 		   Thread.sleep(1000);
 		   JavascriptExecutor jse = (JavascriptExecutor)driver;
-			jse.executeScript("window.scrollBy(0,300)", "");
+			jse.executeScript("window.scrollBy(0,100)", "");
 		   registration.clickcountRetail();
 		   Thread.sleep(5000);
 	}
@@ -131,7 +131,7 @@ public class IRRetailReg {
 	   
 		jse.executeScript("window.scrollBy(0,200)", "");
 	   registration.clickAccept();
-	   Thread.sleep(40000);
+	   Thread.sleep(25000);
 		  
 	}
 
@@ -152,15 +152,15 @@ public class IRRetailReg {
 	@Then("^Click on confirm button$")
 	public void click_on_confirm_button() throws Throwable {
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
-		jse.executeScript("window.scrollBy(0,300)", "");
-		Thread.sleep(2000);
+		jse.executeScript("window.scrollBy(0,400)", "");
+		Thread.sleep(5000);
 		registration.clickEcardCon();
 		Thread.sleep(2000);
 	}
 
 	@Then("^Validate the Auto Login \"([^\"]*)\"$")
 	public void validate_the_Auto_Login(String arg1) throws Throwable {
-		Thread.sleep(5000);
+		Thread.sleep(25000);
 		Assert.assertEquals(registrationConfirmation.readName(), arg1); 
 	}
 	
@@ -177,7 +177,7 @@ public class IRRetailReg {
 		   Thread.sleep(2000);
 	   anonymouspurchaseReg.checktcRetail();
 	   anonymouspurchaseReg.clicktcConfirm();
-	   Thread.sleep(20000);
+	   Thread.sleep(25000);
 	}
 
 
